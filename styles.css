@@ -1,0 +1,105 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styles */
+body {
+  font-family: 'Roboto', sans-serif; /* Futuristic font */
+  line-height: 1.6;
+  background-color: #E06553; /* Background color */
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background: linear-gradient(135deg, #EF1105, #E06553); /* Futuristic gradient background */
+  color: #fff;
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color:#E06553; /* Change color on hover */
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  margin-bottom: 20px;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+footer {
+  background: linear-gradient(135deg, #EF1105, #E06553); /* Futuristic gradient background */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Add this style to make the header flexbox */
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Add this style to make the about section flexbox */
+.about-container {
+  display: flex;
+}
+
+/* Add this style to control the profile image size and position */
+.profile-image-container {
+  flex: 0 0 auto; /* Don't allow it to grow or shrink */
+}
+
+/* Add this style to control the about content position */
+.about-content {
+  flex: 1; /* Allow it to grow to fill remaining space */
+  padding-left: 20px; /* Add some space between image and content */
+}
+
+/* Add this style to accommodate the profile image */
+.profile-image {
+  width: 300px; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 10%; /* Make it circular */
+}
