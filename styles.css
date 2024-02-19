@@ -9,7 +9,7 @@
 body {
   font-family: 'Roboto', sans-serif; /* Futuristic font */
   line-height: 1.6;
-  background-color: #E06553; /* Background color */
+  background-color: #95A1A9; /* Background color */
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #EF1105, #E06553); /* Futuristic gradient background */
+  background: linear-gradient(135deg,#95A1A9, #E06553); /* Futuristic gradient background */
   color: #fff;
   padding: 20px 0;
 }
@@ -68,7 +68,7 @@ section h2 {
 }
 
 footer {
-  background: linear-gradient(135deg, #EF1105, #E06553); /* Futuristic gradient background */
+  background: linear-gradient(135deg,#95A1A9, #E06553); /* Futuristic gradient background */
   color: #fff;
   text-align: center;
   padding: 20px 0;
@@ -103,3 +103,78 @@ header .container {
   height: auto; /* Maintain aspect ratio */
   border-radius: 10%; /* Make it circular */
 }
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background: linear-gradient(135deg,#95A1A9, #E06553); /* Primary color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.btn:hover {
+  background-color: #45a049; /* Darken color on hover */
+}
+/* Style the contact section */
+#contact {
+  padding: 50px 0;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.contact-item {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.contact-item h3 {
+  margin-bottom: 10px;
+}
+
+.contact-item p, .contact-item ul {
+  margin: 0;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form h3 {
+  margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form textarea {
+  height: 150px;
+}
+
+.contact-form button {
+  background: linear-gradient(135deg,#95A1A9, #E06553); 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background: linear-gradient(135deg,#95A1A9, #E06553); 
+}
+

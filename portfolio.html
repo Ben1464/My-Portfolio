@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header>
@@ -25,8 +26,12 @@
                 <img src="./images/IMG_20231222_174337_886.jpg" alt="Benson Mwangi's Photo" class="profile-image">
             </div>
             <div class="about-content">
-                <h2>About Me</h2>
-                <p>I am Benson Mwangi Kimani, a 28-year-old individual with a passion for both salesmanship and software engineering. Currently, I find myself at an exciting juncture, balancing my role as a Sales Representative at Greenlife Crop Protection with my studies in software engineering at Moringa School. Allow me to share a glimpse into my journey thus far...</p>
+                <h2>About Me </h2>
+                <p>I am Benson Mwangi Kimani, a 28-year-old individual with a passion for both salesmanship and software engineering. Currently, I find myself at an exciting juncture, balancing my role as a Sales Representative at Greenlife Crop Protection with my studies in software engineering at Moringa School. Allow me to share a glimpse into my journey thus far.
+
+                    In my capacity as a Sales Representative, I thrive on the dynamic nature of the field. Every day presents a new opportunity to connect with clients, understand their needs, and offer solutions that not only meet but exceed their expectations. I take great pride in building strong relationships grounded in trust and mutual respect, fostering an environment where collaboration and success go hand in hand.
+                    
+                    Simultaneously, my fascination with technology and its limitless potential led me to embark on a parallel path in software engineering. At Moringa School, I immerse myself in the intricacies of coding, algorithms, and software development methodologies. It's a challenging yet immensely rewarding journey, one that fuels my curiosity and ignites my passion for innovation.</p>
             </div>
         </div>
     </section>
@@ -37,17 +42,46 @@
         </div>
         
     </section>
-    <section id="resume">
-        <div class="container">
-            <h2>Resume</h2>
-            <p>Download my resume.</p>
-        </div>
-    </section>
     <section id="contact">
         <div class="container">
-            <h2>Contact</h2>
-            <p>My contact information will be listed here.</p>
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p><a href="mailto:youremail@example.com">kimaniben14@gmail.com</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>Phone</h3>
+                    <p>+254707811992</p>
+                </div>
+                <div class="contact-item">
+                    <h3>Social Media</h3>
+                    <ul>
+                        <li><a href="https://twitter.com/KimaniBenson18" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/kimaniben1464/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://github.com/Ben1464" target="_blank"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="contact-form">
+                <h3>Send me a message</h3>
+                <form action="send_message.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
+    </section>
+    
+    <section id="resume">
+        <div class="container">
+            
+            <button class = btn>Download Resume</button>
+        </div>
+    </section>
+    
     </section>
     <footer>
         <div class="container">
