@@ -83,11 +83,23 @@
     </section>
 
     </section>
-    <footer>
-        <div class="container">
-            <p id="footer-date">&copy; <span id="current-year"></span> Benson Mwangi</p>
-        </div>
-    </footer>
-    <script src="script.js"></script>
+    <body>
+        <footer>
+            <div class="container">
+                <p id="footer-date">&copy; <span id="current-year"></span> Benson Mwangi</p>
+            </div>
+        </footer>
+    
+        <script>
+            // Ensure the DOM content is fully loaded before executing the script
+            document.addEventListener('DOMContentLoaded', function() {
+                // Retrieve the element for current year
+                var currentYearElement = document.getElementById('current-year');
+                // Get the current year
+                var currentYear = new Date().getFullYear();
+                // Update the text content of the current year element
+                currentYearElement.textContent = currentYear;
+            });
+        </script>
 </body>
 </html>
