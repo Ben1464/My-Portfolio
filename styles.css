@@ -89,22 +89,26 @@ header .container {
 /* Add this style to make the about section flexbox */
 .about-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 /* Add this style to control the profile image size and position */
 .profile-image-container {
-  flex: 0 0 auto; /* Don't allow it to grow or shrink */
+  flex: 0 0 30%; /* Don't allow it to grow or shrink */
+  max-width: 30%; /* Limit width */
 }
 
 /* Add this style to control the about content position */
 .about-content {
-  flex: 1; /* Allow it to grow to fill remaining space */
-  padding-left: 20px; /* Add some space between image and content */
+  flex: 0 0 60%; /* Don't allow it to grow or shrink */
+  max-width: 60%; /* Limit width */
+  margin-top: 20px; /* Add some space between image and content */
 }
 
 /* Add this style to accommodate the profile image */
 .profile-image {
-  width: 350px; /* Adjust the width as needed */
+  width: 100%; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   border-radius: 5%; /* Make it circular */
   border: 5px solid #00FFD1; /* Accent color border */
@@ -134,12 +138,13 @@ header .container {
 
 .contact-info {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin-bottom: 40px;
 }
 
 .contact-item {
-  flex: 1;
+  flex: 0 0 30%;
   margin-right: 20px;
   font-size: large;
 }
@@ -153,8 +158,9 @@ header .container {
 }
 
 .contact-form {
-  max-width: 600px;
-  margin: 0 auto;
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-top: 20px;
 }
 
 .contact-form h3 {
@@ -194,14 +200,64 @@ header .container {
   justify-content: center;
   align-items: center;
 }
-.fab{
+
+.fab {
   font-size: 36px;
-  display:flex;
+  display: flex;
 }
- .contact-item{
+
+.contact-item {
   display: block;
 }
 
 .contact-item a {
   margin-right: 10px; /* Adjust spacing between icons */
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  header {
+    padding: 10px 0;
+  }
+
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  nav ul li a {
+    padding: 10px 0;
+    display: block;
+    text-align: center;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-image-container,
+  .about-content {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .contact-item {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
 }
