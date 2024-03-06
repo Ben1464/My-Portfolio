@@ -128,8 +128,7 @@ header .container {
 }
 
 .btn:hover {
-  background-color: #6A4236
-  ; /* Darken color on hover */
+  background-color: #6A4236; /* Darken color on hover */
 }
 
 /* Style the contact section */
@@ -267,5 +266,26 @@ header .container {
   .contact-form input,
   .contact-form textarea {
     width: 100%;
+  }
+
+  .nav-links {
+    display: none; /* Initially hide the navigation links */
+  }
+
+  .hamburger-menu {
+    display: flex; /* Show the hamburger menu on smaller screens */
+  }
+
+  /* Adjust the hamburger menu icon appearance when clicked */
+  .change .line:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .change .line:nth-child(2) {
+    opacity: 0;
+  }
+
+  .change .line:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
   }
 }
