@@ -207,12 +207,19 @@ header .container {
   display: flex;
 }
 
-.contact-item {
-  display: block;
+.contact-item ul {
+  list-style: none; /* Remove list-style */
+  padding: 0; /* Remove default padding */
+  display: flex;
+  justify-content: center; /* Display items horizontally */
 }
 
-.contact-item a {
-  margin-right: 10px; /* Adjust spacing between icons */
+.contact-item ul li {
+  margin-right:  60px; /* Adjust spacing between icons */
+}
+
+.contact-item ul li:last-child {
+  margin-right: 0 100px; /* Remove margin-right for the last item */
 }
 
 /* Media Queries */
