@@ -32,7 +32,7 @@ header h1 {
 
 nav ul {
   list-style: none;
-  display: block;
+  display: flex;
 }
 
 nav ul li {
@@ -288,4 +288,10 @@ header .container {
   .change .line:nth-child(3) {
     transform: rotate(45deg) translate(-5px, -6px);
   }
+}
+.project-item video {
+  width: 100%; /* Ensure video takes full width of container */
+  border-radius: 5px; /* Add some rounded corners */
+  margin-top: 20px; /* Add space between video and project description */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
 }
