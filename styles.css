@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg,#3BD045, #EF1105); /* Gradient background with futuristic colors */
+  background: linear-gradient(135deg, #3BD045, #f5f5f5, #EF1105); /* Three-color gradient background */
   color: #fff;
   padding: 20px 0;
 }
@@ -44,7 +44,7 @@ nav ul li:last-child {
 }
 
 nav ul li a {
-  color: #C5C6C7;
+  color: black;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
@@ -73,7 +73,7 @@ section h2 {
 }
 
 footer {
-  background: linear-gradient(135deg, #3BD045, #EF1105); /* Gradient background for footer */
+  background: linear-gradient(135deg, #3BD045, #f5f5f5, #EF1105); /* Gradient background for footer */
   color: #fff;
   text-align: center;
   padding: 20px 0;
