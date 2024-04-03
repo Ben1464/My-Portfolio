@@ -32,7 +32,7 @@ header h1 {
 
 nav ul {
   list-style: none;
-  display: flex;
+  display: block;
 }
 
 nav ul li {
