@@ -248,7 +248,7 @@ header .container {
   }
 
   nav ul li a {
-    padding: 10px 20px; /* Adjust padding */
+    padding: 5px 10px; /* Adjust padding */
     display: inline-block; /* Display items inline */
     text-align: center;
   }
