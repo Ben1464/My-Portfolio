@@ -231,7 +231,7 @@ header .container {
 /* Media Queries */
 @media (max-width: 768px) {
   header {
-    padding: 10px 0;
+    padding: 5px 0;
   }
 
   header h1 {
