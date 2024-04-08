@@ -109,7 +109,7 @@ header .container {
 
 /* Add this style to accommodate the profile image */
 .profile-image {
-  width: 50%; /* Adjust the width as needed */
+  width: 100%; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   border-radius: 5%; /* Make it circular */
   border: 5px solid #62CF4F; /* Accent color border */
