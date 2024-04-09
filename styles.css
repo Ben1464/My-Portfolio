@@ -378,6 +378,6 @@ nav ul li:nth-child(3) a:hover::before {
     transform: rotate(45deg) translate(-5px, -6px);
   }
 }
-h4{
-  color:#EF1105
+.project-item h3 a {
+  color: red; /* Change the color to red */
 }
