@@ -78,8 +78,8 @@ footer {
   color: black;
   text-align: center;  
   padding: 10px 0;
-  justify-content: center;
-  display: block;
+  /* justify-content: center; */
+  /* display: block; */
 }
 
 /* Add this style to make the header flexbox */
