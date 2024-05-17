@@ -390,3 +390,19 @@ nav ul li:nth-child(3) a:hover::before {
 .project-item h3 a {
   color: red; /* Change the color to red */
 }
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/* Apply animation to the blinking link */
+.blinking-link {
+  animation: blink 1s infinite;
+  /* background: linear-gradient(to right, #ff0000, #00ff00); */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
