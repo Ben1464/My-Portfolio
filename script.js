@@ -54,3 +54,8 @@ const feedbackForm = document.getElementById('feedbackForm');
 feedbackForm.addEventListener('submit', sendFeedback);
 
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    const welcomeMessage = document.getElementById('welcome-message');
+    welcomeMessage.style.animation = 'typing 3.5s steps(40, end), blink-caret .75s step-end infinite';
+  });
+  
