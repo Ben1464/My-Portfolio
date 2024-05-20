@@ -418,7 +418,7 @@ height: 300px;
   margin-bottom: 20px;
   color: #f5f5f5;
   /* text-shadow: 2px 2px 4px #000000; */
-  background: linear-gradient(to right, #ff0000, #00ff00, #c54e4e, black);
+  background: linear-gradient(to right, #ff0000, #00ff00, #c54e4e, rgb(95, 68, 68));
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
