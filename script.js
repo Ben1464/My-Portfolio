@@ -52,3 +52,5 @@ function sendFeedback(event) {
 // Attach sendFeedback function to the form submission event
 const feedbackForm = document.getElementById('feedbackForm');
 feedbackForm.addEventListener('submit', sendFeedback);
+
+
