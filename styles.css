@@ -406,3 +406,7 @@ nav ul li:nth-child(3) a:hover::before {
   font-weight: bold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+.video{
+height: 300px;
+width: 300px;
+}
