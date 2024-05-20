@@ -116,7 +116,7 @@ header .container {
   width: 100%; /* Adjust the width as needed */
   height: auto; /* Maintain aspect ratio */
   border-radius: 5%; /* Make it circular */
-  border: 5px solid #50634d; /* Accent color border */
+  border: 2px solid #50634d; /* Accent color border */
 }
 
 .btn {
